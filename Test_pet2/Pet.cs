@@ -1,6 +1,8 @@
 namespace Test_pet2;
 
 public abstract class Pet
+// Description, Trick, Noise set to protected set access,
+// allowing modifications only within subclasses.
 {
     public string Name { get; }
     public string Description { get; protected set; }

@@ -19,7 +19,7 @@ class Program
         //iterating through the collection(list)
         foreach (Pet pet in myPets)
         {
-            pet.ShowInfo();
+            pet.ShowInfo(); // using virtual method
             pet.PerformTrick(); // using abstract method
             Console.WriteLine();
         }
