@@ -11,6 +11,6 @@ public class Fish : Pet
     //Implementing abstract method to preform trick
     public override void PerformTrick()
     {
-        Console.WriteLine($"Fish {Name} preforms trick: {Trick}");
+        Console.WriteLine($"Fish {Name} performs trick: {Trick}");
     }
 }
