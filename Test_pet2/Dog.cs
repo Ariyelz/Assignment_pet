@@ -8,4 +8,9 @@ public class Dog : Pet
         Trick = "Puppy eyes";
         Noise = "Woof";
     }
+    //Implementing abstract method to preform trick
+    public override void PerformTrick()
+    {
+        Console.WriteLine($"Dog {Name} preforms trick: {Trick}");
+    }
 }
